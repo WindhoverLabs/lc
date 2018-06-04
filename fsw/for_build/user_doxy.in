@@ -91,7 +91,7 @@ WARN_LOGFILE           =
 #---------------------------------------------------------------------------
 # configuration options related to the input files
 #---------------------------------------------------------------------------
-INPUT                  = @APP_DEFINITION_DIR@/../../docs/dox_src/users_guide/cfs_ds.dox
+INPUT                  = @APP_DEFINITION_DIR@/../../docs/dox_src/users_guide/cfs_lc.dox
 INPUT                 += @APP_DEFINITION_DIR@/../src/lc_msgdefs.h 
 INPUT                 += @APP_DEFINITION_DIR@/../src/lc_msg.h 
 INPUT                 += @APP_DEFINITION_DIR@/../src/lc_tbldefs.h 
