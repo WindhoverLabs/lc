@@ -31,7 +31,7 @@
  #
  #############################################################################
 
-add_airliner_app_def(lc
+buildliner_add_app_def(lc
     FILE LC
     SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/lc_action.c
@@ -61,7 +61,7 @@ add_airliner_app_def(lc
         ${PROJECT_SOURCE_DIR}/apps/lc/fsw/platform_inc
 )
 
-add_airliner_app_unit_test(lc-ut
+buildliner_add_app_def(lc-ut
     UTASSERT
     NO_HELGRIND
     NO_MASSIF
