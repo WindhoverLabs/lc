@@ -61,7 +61,7 @@ buildliner_add_app_def(lc
         ${PROJECT_SOURCE_DIR}/apps/lc/fsw/platform_inc
 )
 
-buildliner_add_app_def(lc-ut
+buildliner_add_app_unit_test(lc-ut
     UTASSERT
     NO_HELGRIND
     NO_MASSIF
